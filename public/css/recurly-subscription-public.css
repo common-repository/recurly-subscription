@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.cc_field,input[type="text"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea,select{width: auto !important;float: left;margin-right: 10px;}
+ #rs_subsc_form .rs_country_field{width: 46% !important;}
+ #rs_subsc_form .blockcls{width: 100%;float: left;margin-bottom: 20px;}
+ #rs_subsc_form .blockcls label{font-weight: 100;}
+ #selected_card_logo{width: 50px;}
+ #rs_subsc_form .clearleft{float: left;margin-right: 20px;}
+ #rs_subsc_form .error{color: #ea0d36;border: 1px solid #ea0d36;}
+ #rs_subsc_form .contact_info, #rs_subsc_form .subscription_info{
+    background: url(../images/dash.png) repeat-x 1px bottom;
+}
+#rs_subsc_form .title {
+    font-size: 16px;
+    height: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #404041;
+    text-shadow: 0 1px 0 #fff;
+    float: left;
+}
+#rs_subsc_form .contact_info, #rs_subsc_form .billing_info,#rs_subsc_form .subscription_info{
+    position: relative;
+    padding: 20px 20px;
+    overflow: hidden;
+    zoom: 1;
+}
